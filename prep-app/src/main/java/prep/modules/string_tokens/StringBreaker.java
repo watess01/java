@@ -6,7 +6,9 @@ public class StringBreaker {
 
     public String[] breakIt(String s) {
         s = s.replaceAll("[,!]", "");
-        String[] words = s.split("[ !,?''._@]");
+        String[] words = s.split("[ !,?''._@]|[!!]");
+        // remove blanks
+
         // return count as string followed by words
         String[] result = new String[words.length + 1];
         result[0] = String.valueOf(words.length);
