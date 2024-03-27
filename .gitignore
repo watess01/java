@@ -1,3 +1,7 @@
 *.class
 # Default ignored files
 
+prep-app/target/surefire-reports/prep.AppTest.txt
+prep-app/target/surefire-reports/TEST-prep.AppTest.xml
+prep-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+prep-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
