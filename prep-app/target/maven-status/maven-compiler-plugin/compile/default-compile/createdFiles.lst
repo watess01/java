@@ -1,6 +1,6 @@
-prep/interfaces/IAnagramFinder.class
-prep/modules/AnagramFinder$CharCount.class
 prep/App.class
-prep/modules/AnagramFinder$CharCountList.class
 prep/modules/AnagramFinder.class
 prep/modules/AnagramFinder$InnerAnagramFinder.class
+prep/interfaces/IAnagramFinder.class
+prep/modules/AnagramFinder$CharCount.class
+prep/modules/AnagramFinder$CharCountList.class

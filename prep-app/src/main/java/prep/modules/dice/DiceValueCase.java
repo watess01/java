@@ -1,7 +1,8 @@
+package prep.modules.dice;
 public enum DiceValueCase {
     SingleOne,
     Single5,
-    Triple,
+    Triples,
     FourOfAKind,
     FiveOfAKind,
     SixOfAKind,
