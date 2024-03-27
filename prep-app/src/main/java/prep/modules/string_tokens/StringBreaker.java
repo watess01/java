@@ -1,9 +1,18 @@
 package prep.modules.string_tokens;
 
-import java.io.*;
-import java.util.*;
+
 public class StringBreaker {
 
+
+    public String[] breakIt(String s) {
+        s = s.replaceAll("[,!]", "");
+        String[] words = s.split("[ !,?''._@]");
+        // return count as string followed by words
+        String[] result = new String[words.length + 1];
+        result[0] = String.valueOf(words.length);
+        System.arraycopy(words, 0, result, 1, words.length);
+        return result;
+    }
     public static void Run(String s, int expectedCount) {
 
         s = s.replaceAll("[,!]", "");
