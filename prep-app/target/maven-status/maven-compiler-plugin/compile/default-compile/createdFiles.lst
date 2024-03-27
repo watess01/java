@@ -1,10 +1,6 @@
-DemoThreads.class
 prep/interfaces/IAnagramFinder.class
-DemoLambda.class
 prep/modules/AnagramFinder$CharCount.class
-DayFinder.class
 prep/App.class
-Hr1.class
 prep/modules/AnagramFinder$CharCountList.class
 prep/modules/AnagramFinder.class
 prep/modules/AnagramFinder$InnerAnagramFinder.class
