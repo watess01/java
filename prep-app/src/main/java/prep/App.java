@@ -1,6 +1,6 @@
 package prep;
 
-import prep.modules.AnagramFinder;
+import prep.modules.Anagram.AnagramFinder;
 import prep.modules.string_tokens.StringBreaker;
 
 /**
