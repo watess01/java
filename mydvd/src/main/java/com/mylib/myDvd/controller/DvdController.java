@@ -1,2 +1,13 @@
-package com.mylib.myDvd.controller;public class DvdController {
+package com.mylib.myDvd.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+public class DvdController {
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "Hello, World!";
+    }
 }
